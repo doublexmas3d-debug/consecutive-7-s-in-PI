@@ -1,0 +1,20 @@
+from mpmath import mp
+
+n = 3000
+mp.dps = n
+
+pi_str = str(mp.pi)
+
+#print(pi_str)
+
+found = False
+found_index = -1
+for i in range (len(pi_str ) - 1):
+    if pi_str[i] == "7" and pi_str[i + 1] == "7":
+        print("Found 2 consecutive 7s at the place:" , i )
+        found = True
+        found_index = i
+        break
+if found == True:
+    annotated_pi_str = pi_str[:found_index] + '****77****' + pi_str[found_index + 2:]
+    print(annotated_pi_str)

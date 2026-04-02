@@ -11,6 +11,6 @@ The maths for this is  : f(x) = {1,If x consecutive 7's exists in PI}
 
  example >>> pi = 2,5,7,7,7,4,5 : f(3) = 1 (becuase there are 3 consecutive 7's)      
 
+to edit the digits of pi in the code edit variable (n) in line 3 of (p7_22numbers)
 
-
-This program will be coded in pyhton at frist but will later be coded into csharp
+This program will be coded in python at first but will later be coded into csharp
